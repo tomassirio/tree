@@ -1,4 +1,4 @@
-module github.com/thahisuday/tree
+module github.com/tomassirio/tree
 
 go 1.15
 
