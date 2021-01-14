@@ -9,7 +9,7 @@ func main() {
 	// configure commando
 	commando.
 		SetExecutableName("tree").
-		SetVersion("1.0.0").
+		SetVersion("1.0.1").
 		SetDescription("This tool lists the contents of a directory in tree-like format.\nIt can also display information about files and folders like size, permission and ownership.")
 
 	// configure the root command
@@ -43,6 +43,7 @@ func main() {
 			// call `list` function
 			list(true, dir, flags)
 		})
+		//No sense
 
 	// parse command-line arguments
 	commando.Parse(nil)
